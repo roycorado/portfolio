@@ -1,3 +1,4 @@
+
 *{
 	margin: 0;
 	padding: 0;
@@ -5,65 +6,154 @@
 	font-family: 'Raleway', sans-serif;
 }
 
-#navbar1 {
-	background-color: #333;
+
+
+#bgimg {
+ 	background-image: url("../images/bg33.jpg");
+ 	width: 100%;
+  	height: 90vh; 
+  	background-position: center;
+ 	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+ 	background-attachment: fixed;
+  	font-family: 'Montserrat', sans-serif;
 }
 
-#port-jumbo {
-	border: 8px solid #007bff;
-	border-radius: 10px;
-	width: 60%;
-	padding: 8em 4em;   /*8em is top-bottom and 4em is horizontal (left and right); more responsive than pixels*/
+.wrapper {
+	padding-top: 5%;
 }
 
-#jumbo-div {
-	padding-top: 10%;
-	height: 100vh;
-	background-color: white; /*#333;  off black*/
-	border-radius: 0;  /*to remove jumbotron's rounded corners*/
+
+#container1 {
+  background-color: background: rgba(76, 175, 80, 0.6);  /*sets opacity for background color of texts, but for some reason its not working*/
 }
 
-.jumbotron h1 {
-	color: #f2f2f2; /*off white*/
+#container2 {
+  background-color: background: rgba(76, 175, 80, 0.6);  /*sets opacity for background color of texts, but for some reason its not working*/
+}
+
+#container3 {  
+	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3em;
+	color: #141414;
+	padding-top: 5px;
 }
 
-.btn a {
+#whatidoheading {
+	font-weight: normal;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3em;
 	color: #f2f2f2;
+	padding: 5px;
+}
+
+#container4 {
+	/*width: 100%;*/	
+	margin-top: 20px;
+	position: relative;
+	z-index: 10;
+}
+
+#container5 {
+	background-color: none;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+.btn {
+	text-decoration: none;
+	background-color: background: rgba(76, 175, 80, 0.6);  /*sets opacity for background color of texts, but for some reason its not working*/
+	font-weight: bold;
+	font-size: 1em;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+.headings {
+	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
-}
-
-#portfolio {	
-	
-	width: auto;
-	height: 100vh;
-	padding: 8em 4em;   /*8em is top-bottom and 4em is horizontal (left and right); more responsive than pixels*/
-}
-
-#about {	
-	
-	width: auto;
-	height: 100vh;
-	padding: 8em 4em;   /*8em is top-bottom and 4em is horizontal (left and right); more responsive than pixels*/
-}
-
-#contact {	
-	
-	width: auto;
-	height: 100vh;
-	padding: 8em 4em;   /*8em is top-bottom and 4em is horizontal (left and right); more responsive than pixels*/
-}
-
-#linkses {	
-	
-	width: auto;
-	height: 100vh;
-	padding: 8em 4em;   /*8em is top-bottom and 4em is horizontal (left and right); more responsive than pixels*/
+	font-size: 2.5em;
+	color: #f2f2f2;
 }
 
 
 
+.paragraphs {
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	color: #f2f2f2; /*off black*/
+}
+
+.paragraphs2 {
+	font-size: 1em;
+	font-family: 'Montserrat', sans-serif;
+	color: #f2f2f2;
+}
 
 
+.footer {
+	min-height: 30px;
+	padding: 15px;
+}
+
+.contact {
+	float: right;
+}
+
+.forleftside {
+	float: left;
+}
 
 
+/*Desktop Styles*/
+@media only screen and (min-width: 961px) {
+
+}
+
+/*Tablet Styles*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+
+/*Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+	.paragraphs {
+	font-size: 1em;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	color: #f2f2f2; /*off black*/
+}
+
+.paragraphs2 {
+	font-size: .8em;
+	font-family: 'Montserrat', sans-serif;
+	color: #f2f2f2;
+}
+	#container3 {  
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	color: #141414;
+	padding-top: 0px;
+}
+
+#whatidoheading {
+	font-weight: normal;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.8em;
+	color: #f2f2f2;
+	padding: 0px;
+}
+
+#bgimg {
+ 	background-image: url("../images/bk12.jpg");
+ 	}
+}

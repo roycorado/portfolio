@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,173 +26,95 @@
 </head>
 <body>
 
-	<nav id="navbar1"  class="navbar navbar-expand-lg navbar-dark sticky-top#">  
-		<a class="navbar-brand" href="#">
-			<i href="#portfolio" class="fas fa-address-card"></i> PROFILE
-		</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div id="navbar-nav" class="collapse navbar-collapse">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home</a>
-					</li>
-					<li class="nav-item">
-
-						<a class="nav-link active" href="#portfolio">Projects</a>
-
-					</li>   
-
-					<li class="nav-item">
-						<a class="nav-link active" href="#about">About</a>
-					</li>					
-
-					<li class="nav-item">
-						<a class="nav-link active" href="#contact">Contact</a>
-					</li>
-
-					<li class="nav-item active">
-						<a class="nav-link active" href="#linkses">Links</a>
-					</li>
 
 
-<!-- 					<li class="nav-item">
-						<div class="dropdown">
-							<button class="btn btn-outline-danger dropdown-toggle" data-toggle="dropdown">Register</button>
-							<div class="dropdown-menu">
-								<a href="#" class="dropdown-item">Username</a>
-								<a href="#" class="dropdown-item">Password</a>
-								<a href="#" class="dropdown-item">Login</a>			
-							</div>
-						</div> <!-- end of dropdown -->
-					</li>	 -->					
-				</ul>
-			</div>	<!-- end of nav bar nav-->
-		</nav> <!-- end nav -->
+	<div class="container-fluid  img-fluid" id="bgimg">
 
 
 
+		<div class="wrapper">
 
+			<div class="container " id="container1">
+				<h1 class="headings text-center">Roy Corado</h1>
+					<p class="paragraphs text-justify text-center">Nice to meet you! Allow me to help, and together, with your vision, I'll code to life the website you've been dreaming about.</p>
+			</div>
 
-
-
-
-
-
-	<section id="jumbotron-section"> 
-		<div id="jumbo-div" class="jumbotron mb-0"> <!--  mb is margin bottom 0 -->
-			<div id="port-jumbo" class="container">
-				<h1 class="text-center">Roy Corado</h1>  <!-- bootstrap predefined text center -->
-				<p class="text-center lead">This is my amazing Web Dev Porfolio</p>
-				<button class="btn btn-primary btn-block">
-					<a href="#portfolio">View my Portfolio</a>
-
-				</button>
-			</div> <!-- end of jumbo container -->
-		</div> <!-- end of jumbotron -->
-
-	</section> <!-- end of jumbo section -->
-
-
-	<section id="portfolio" class="contaier py-5">  <!-- container vs container fluid (entire width of page) -->
-		<div class="row">
-			<div class="col-12 col-md-4 col-lg-4">
-				<div class="card">
-					<img class="img-fluid card-img-top" src="http://lorempixel.com/400/200">
-					<div class="card-body">
-						<h3 class="card-title">Capstone 1</h3>
-						<p>This text describes my website: used css, html, etc...</p>
-						<button class="btn btn-outline-primary btn-block">Link to my website</button>
+			<div class="container" id="container2" >
+				<button type="button" class="btn btn-block" data-toggle="collapse" data-target="#demo" id="container3">What I do:</button>
+					<div id="demo" class="collapse">
+						<h6 class="text-center lead" id="whatidoheading">Freelance Web Designer and Developer based in San Diego, California. Web Design is my passion. I blend beautiful, functional, high impact, purposeful designs to meet the client's needs and requirements. Skilled in the folowing:</h6>
+							<p class="text-justify text-center lead paragraphs2">Front-end, back-end, HTML, CSS, Bootstrap, with specialty in fully reponsive design.</p>
+							<p class="text-justify text-center lead paragraphs2">With every line of code, I'll strive to make your site amazing!</p>
 					</div>
-				</div> <!-- end of card -->
-			</div> <!-- end of col -->
+			</div>
 
-			<div class="col-12 col-md-4 col-lg-4">
-				<div class="card">
-					<img class="img-fluid card-img-top" src="http://lorempixel.com/400/200">
-					<div class="card-body">
-						<h3 class="card-title">Capstone 2</h3>
-						<p>This text describes my website: used css, html, etc...</p>
-						<button class="btn btn-outline-primary btn-block">Link to my website</button>
+			<hr>
+
+			<img id="profilepic" src="assets/images/image1.jpeg" class="img-fluid mx-auto d-block rounded-circle" style="width:13%" alt="my picture">
+
+			<hr>
+
+			<div class="container" id="container4">
+				<div class="btn-group" id="container5">
+					<div class="btn-group"> 
+						<button type="button" class="btn btn-outline-light dropdown-toggle" data-toggle="dropdown">CONTACT</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item">
+								<p><small>Address:24 Awesome St. Manila, philippines- Cell:09054049115</small></p>
+								<p><small>Email: roycorado@gmail.com</small></p>
+							</a>
+							
+						</div>
 					</div>
-				</div> <!-- end of card -->
-			</div> <!-- end of col -->
-
-			<div class="col-12 col-md-4 col-lg-4">
-				<div class="card">
-					<img class="img-fluid card-img-top" src="http://lorempixel.com/400/200">
-					<div class="card-body">
-						<h3 class="card-title">Capstone 3</h3>
-						<p>This text describes my website: used css, html, etc...</p>
-						<button class="btn btn-outline-primary btn-block">Link to my website</button>
+					<div class="btn-group">
+						<button type="button" class="btn btn-outline-light dropdown-toggle" data-toggle="dropdown">PROJECTS</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Capstone 1</a>
+							<a class="dropdown-item" href="#">Capstone 2</a>
+							<a class="dropdown-item" href="#">Capstone 3</a>
+						</div>
 					</div>
-				</div> <!-- end of card -->
-			</div> <!-- end of col -->
+
+					<div class="btn-group">
+						<button type="button" class="btn btn-outline-light dropdown-toggle" data-toggle="dropdown">LINKS</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="https://gitlab.com" target="_blank">Gitlab</a>
+							<a class="dropdown-item" href="https://github.com/" target="_blank">Github</a>
+							<a class="dropdown-item" href="https://google.com/gmail/" target="_blank">Gmail</a>
+						</div>
+					</div>
+				</div>	
+			</div> <!-- end of container4 -->
 
 
-		</div> <!-- end of row -->
-	</section> <!-- end section portfolio -->
-
-	<section id="about" class="container mb-5">
-		<h3 class="display-3 text-center bg-primary"> About the Developer</h3>
-
-		<div class="row">
-			<div class="col-12 col-md-4">
-				<img class="img-fluid" src="http://lorempixel.com/400/200">
-			</div> <!-- end of left side -->
-
-			<div class="col-12 col-md-8">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div> <!-- end of right side -->
 		</div>
-	</section> <!-- end of about me -->
 
-	<section id="contact" class="container mb-5">
-		<h3 class="display-3 text-center bg-primary"> How To Contact Us</h3>
 
-			<div class="row">
-				<div class="col-12 col-md-4">
-					<img class="img-fluid" src="http://lorempixel.com/400/200">
-				</div> <!-- end of left side -->
+	</div>
+	
+		
 
-				<div class="col-12 col-md-8">
-					<h5>ADDRESS</h5>
-						<p>101 Awesome Street. Manila Philippines</p>
-					<h5>PHONE NUMBER</h5>
-						<p>0925-4501-1111</p>
-					<h5>EMAIL</h5>
-						<a href="#" type="email" placeholder="Email Us"></a>
-				</div> <!-- end of right side -->
+	<footer class="container-fluid footer bg-light mb-0">
+		<p class="forleftside">Roy Corado | Tuitt Coding Bootcamp &copy:2018</p>
+		<div class="contact">
+			<a href="https://facebook.com" alt="social-facebook" target="_blank">
+		  		<i class="fab fa-facebook"></i>	
+		  	</a>				
+		  	<a href="https://www.instagram.com" alt="social-instagram" target="_blank">
+		  		<i class="fab fa-instagram"></i>
+		  	</a>				
+		  	<a href="https://twitter.com"  alt="social-twitter" target="_blank">
+		  		<i class="fab fa-twitter-square"></i>
+		  	</a>				
+		  	<a href="https://www.youtube.com"  alt="social-youtube" target="_blank">
+		  		<i class="fab fa-youtube"></i>
+		  	</a>
 		</div>
-	</section> <!-- end of contact us -->
-
-	<section id="linkses" class="container mb-5">
-		<h3 class="display-3 text-center bg-primary"> Helpful Links</h3>
-
-			<div class="row">
-				<div class="col-12 col-md-4">
-					<img class="img-fluid" src="http://lorempixel.com/400/200">
-				</div> <!-- end of left side -->
-
-				<div class="col-12 col-md-8">
-					<a href="Facebook"></a>	
-					<a href="Twitter"></a>	
-					<a href="#"></a>	
-				</div> <!-- end of right side -->
-		</div>
-	</section> <!-- end of contact us -->
-
-
-	<footer class="footer bg-primary">
-		<p class="text-center p-3 mb-0">Roy Corado | Tuitt Coding Bootcamp &copy:2018</p>
 	</footer>
+
+
+
+
 
 
 	<!-- Optional JavaScript -->
