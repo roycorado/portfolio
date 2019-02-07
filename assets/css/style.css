@@ -1,3 +1,4 @@
+
 *{
 	margin: 0;
 	padding: 0;
@@ -6,6 +7,11 @@
 }
 
 
+.card-img-top {
+    height: 16em;
+    object-fit: cover;
+    padding: 0px 3px 10px 3px;
+}
 
 #bgimg {
  	background-image: url("../images/bg33.jpg");
@@ -20,7 +26,7 @@
 }
 
 .wrapper {
-	padding-top: 15%;
+	padding-top: 10%;
 }
 
 
@@ -224,3 +230,5 @@
 	height: 100vh;
 	padding: 8em 4em;   /*8em is top-bottom and 4em is horizontal (left and right); more responsive than pixels*/
 }
+
+
