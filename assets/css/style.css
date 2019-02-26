@@ -9,7 +9,6 @@
 
 
 
-
 section
 {
 	position: absolute;
@@ -230,7 +229,6 @@ section
 	color: #fff;
 	margin: 0;
 	padding: 0;
-	font-size: .6em;
 	font-family: sans-serif;
 }
 
@@ -244,7 +242,6 @@ section
 	color: #fff;
 	margin: 0;
 	padding: 0;
-	font-size: .6em;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -343,7 +340,24 @@ section
 
 #profilepic {
 	width: 13%;
-	}
+	}h1 {
+	font-size: 1em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: 1em;
+}
+
+
+
 }
 
 /*Tablet Styles*/
@@ -373,33 +387,26 @@ h5 {
 
 /*Mobile Styles */
 @media only screen and (max-width: 400px) {
-		#profilepic {
-	width: 19%;
-	}
+
 
 #bgimg {
  	background-image: url("../images/bk12.jpg");
  	}
 
-#container1 {
-	right: 1.5%;
-	position: absolute;
-	top: 30%;
-	transform: translateY(-50%);
-	width: 100%;
-	text-align: center;
-	color: #fff;
-	margin: 0;
-	padding: 0;
-	font-family: 'Montserrat', sans-serif;
+h1 {
+	font-size: 1em;
 }
 
-#container1 > h1 {
-	font-size: .4em;
+h3 {
+	font-size: 1em;
 }
 
-#container1 > h1 {
-	font-size: .4em;
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: 1em;
 }
 
 
