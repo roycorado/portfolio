@@ -7,6 +7,23 @@
 	font-family: 'Raleway', sans-serif;
 }
 
+h1 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: .8em;
+}
+
+p {
+	font-size: .6em;
+}
+
+
 section
 {
 	position: absolute;
@@ -361,7 +378,7 @@ section
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
 }
-	
+
 
 }
 
