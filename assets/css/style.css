@@ -121,6 +121,11 @@ section
     padding: 0px 3px 10px 3px;
 }
 
+.card {
+
+	box-shadow: 0 0 25px blue, 0 0 25px blue, 0 0 5px darkblue;;
+}
+
 #bgimg {
  	background-image: url("../images/fall.jpg");
  	width: 100%;
@@ -256,7 +261,9 @@ section
 
 /*Desktop Styles*/
 @media only screen and (min-width: 961px) {
-
+	#profilepic {
+	width: 16%;
+	}
 }
 
 /*Tablet Styles*/
@@ -266,7 +273,9 @@ section
 
 /*Mobile Styles */
 @media only screen and (max-width: 400px) {
-
+		#profilepic {
+	width: 16%;
+	}
 
 #bgimg {
  	background-image: url("../images/bk12.jpg");
@@ -344,5 +353,6 @@ section
 	height: 100vh;
 	padding: 8em 4em;   /*8em is top-bottom and 4em is horizontal (left and right); more responsive than pixels*/
 }
+
 
 
