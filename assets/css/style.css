@@ -111,10 +111,7 @@ section
 	transform: scale(2) rotateY(180deg);
 	filter: blur(4px);
 }
-/*.set3 {
-	transform: scale(0.8) rotateY(180deg);
-	filter: blur(4px);
-}*/
+
 
 
 .card-img-top {
@@ -140,25 +137,6 @@ section
   	font-family: 'Montserrat', sans-serif;
 }
 
-.wrapper {
-	padding-top: 10%;
-}
-
-
-/*#container1 {
-  background-color: background: rgba(76, 175, 80, 0.6);  sets opacity for background color of texts, but for some reason its not working
-}*/
-
-
-#container3 {  
-	font-weight: bold;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.3em;
-	color: #141414;
-	padding-top: 5px;
-}
-
-
 
 .btn {
 	text-decoration: none;
@@ -174,53 +152,8 @@ section
 
 
 
-.paragraphs {
-	position: absolute;
-	top: 20%;
-	transform: translateY(-50%);
-	width: 100%;
-	text-align: center;
-	color: #fff;
-	margin: 0;
-	padding: 0;
-	font-size: 1em;
-	font-family: sans-serif;
-}
-
-/*#heading2 {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	width: 100%;
-	text-align: center;
-	color: #fff;
-	margin: 0;
-	padding: 0;
-	font-size: 1em;
-	font-family: sans-serif;
-}*/
-
-.headings {
-	
-	position: absolute;
-	top: 7%;
-	transform: translateY(-50%);
-	width: 100%;
-	text-align: center;
-	color: #fff;
-	margin: 0;
-	padding: 0;
-	font-size: 2.5em;
-	font-family: 'Montserrat', sans-serif;
-
-/*	font-weight: bold;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 2.5em;
-	color: #141414;  */
-}
-
 #whatidoheading {
-	right: 1.5%;
+	/*right: 1.5%;*/
 	position: absolute;
 	top: 80%;
 	transform: translateY(-50%);
@@ -233,7 +166,7 @@ section
 }
 
 #container1 {
-	right: 1.5%;
+	/*right: 1.5%;*/
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -250,17 +183,6 @@ section
 	padding: 15px;
 }
 
-.contact {
-	float: right;
-}
-
-.forleftside {
-	float: left;
-}
-
-
-
-
 
 
 
@@ -268,22 +190,11 @@ section
 	background-color: #333;
 }
 
-#port-jumbo {
-	border: 8px solid #007bff;
-	border-radius: 10px;
-	width: 60%;
-	padding: 8em 4em;   /*8em is top-bottom and 4em is horizontal (left and right); more responsive than pixels*/
-}
 
-#jumbo-div {
-	padding-top: 10%;
-	height: 100vh;
-	background-color: white; /*#333;  off black*/
-	border-radius: 0;  /*to remove jumbotron's rounded corners*/
-}
+
 
 .jumbotron h1 {
-	color: #f2f2f2; /*off white*/
+	color: #f2f2f2; off white
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -299,7 +210,7 @@ section
 	background-size: cover;	
 		
 	width: auto;
-	height: auto;
+	height: 100vh;
 	margin-top: 3em;
 	padding: 2em 1em; */  /*8em is top-bottom and 4em is horizontal (left and right); more responsive than pixels*/
 }
@@ -340,7 +251,9 @@ section
 
 #profilepic {
 	width: 13%;
-	}h1 {
+	}
+
+h1 {
 	font-size: 1em;
 }
 
