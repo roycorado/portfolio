@@ -244,9 +244,9 @@ section
 /*Desktop Styles*/
 @media only screen and (min-width: 961px) {
 
-#profilepic {
+/*#profilepic {
 	width: 13%;
-	}
+	}*/
 
 /*h1 {
 	font-size: 1em;
@@ -270,9 +270,12 @@ h5 {
 
 /*Tablet Styles*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-#profilepic {
+/*#profilepic {
 	width: 19%;
-	}
+	}*/
+#bgimg {
+ 	background-image: url("../images/bk12.jpg");
+ 	}
 
 h1 {
 	font-size: 20px;
