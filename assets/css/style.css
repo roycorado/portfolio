@@ -143,9 +143,9 @@ section
 }
 
 
-#container1 {
-  background-color: background: rgba(76, 175, 80, 0.6);  /*sets opacity for background color of texts, but for some reason its not working*/
-}
+/*#container1 {
+  background-color: background: rgba(76, 175, 80, 0.6);  sets opacity for background color of texts, but for some reason its not working
+}*/
 
 
 #container3 {  
@@ -278,6 +278,23 @@ section
 #bgimg {
  	background-image: url("../images/bk12.jpg");
  	}
+
+#container1 {
+	right: 1.5%;
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	font-size: .4em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
 }
 
 
