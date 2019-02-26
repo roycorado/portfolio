@@ -259,43 +259,7 @@ section
 }
 
 
-/*Desktop Styles*/
-@media only screen and (min-width: 961px) {
 
-}
-
-/*Tablet Styles*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-
-}
-
-/*Mobile Styles */
-@media only screen and (max-width: 400px) {
-		#profilepic {
-	width: 16%;
-	}
-
-#bgimg {
- 	background-image: url("../images/bk12.jpg");
- 	}
-
-#container1 {
-	right: 1.5%;
-	position: absolute;
-	top: 40%;
-	transform: translateY(-50%);
-	width: 100%;
-	text-align: center;
-	color: #fff;
-	margin: 0;
-	padding: 0;
-	font-size: .4em;
-	font-family: 'Montserrat', sans-serif;
-}
-
-
-
-}
 
 
 
@@ -371,3 +335,67 @@ section
 
 
 
+/*Desktop Styles*/
+@media only screen and (min-width: 961px) {
+
+#profilepic {
+	width: 13%;
+	}
+}
+
+/*Tablet Styles*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+#profilepic {
+	width: 19%;
+	}
+
+#container1 {
+	right: 1.5%;
+	position: absolute;
+	top: 30%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+	
+
+}
+
+/*Mobile Styles */
+@media only screen and (max-width: 400px) {
+		#profilepic {
+	width: 19%;
+	}
+
+#bgimg {
+ 	background-image: url("../images/bk12.jpg");
+ 	}
+
+#container1 {
+	right: 1.5%;
+	position: absolute;
+	top: 30%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#container1 > h1 {
+	font-size: .4em;
+}
+
+#container1 > h1 {
+	font-size: .4em;
+}
+
+
+
+}
