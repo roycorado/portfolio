@@ -7,21 +7,7 @@
 	font-family: 'Raleway', sans-serif;
 }
 
-h1 {
-	font-size: 1.6em;
-}
 
-h3 {
-	font-size: 1em;
-}
-
-h5 {
-	font-size: .8em;
-}
-
-p {
-	font-size: .6em;
-}
 
 
 section
@@ -366,17 +352,20 @@ section
 	width: 19%;
 	}
 
-#container1 {
-	right: 1.5%;
-	position: absolute;
-	top: 30%;
-	transform: translateY(-50%);
-	width: 100%;
-	text-align: center;
-	color: #fff;
-	margin: 0;
-	padding: 0;
-	font-family: 'Montserrat', sans-serif;
+h1 {
+	font-size: 1em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: 1em;
 }
 
 
