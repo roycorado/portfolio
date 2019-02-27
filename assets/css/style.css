@@ -243,10 +243,10 @@ section
 /*Desktop Styles*/
 @media only screen and (min-width: 961px) {
 
-#profilepic {
+/*#profilepic {
 	width: 13%;
 	height: 13%;
-}
+}*/
 
 h1 {
 	font-size: 1em;
@@ -343,13 +343,11 @@ h5 {
 
 #whatidoheading {
 
-	
 	top: 50%;
 }
 
 #container1 {
 	/*right: 1.5%;*/
-
 	top: 35%;
 
 }
