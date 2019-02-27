@@ -342,7 +342,7 @@ h5 {
 
 #container1 {
 	/*right: 1.5%;*/
-	top: 55%;
+	top: 65%;
 
 }
 
@@ -353,7 +353,7 @@ h5 {
 }
 
 h1 {
-	font-size: 15px;
+	font-size: 20px;
 }
 
 h3 {
@@ -361,11 +361,11 @@ h3 {
 }
 
 h4 {
-	font-size: 12px;
+	font-size: 18px;
 }
 
 h5 {
-	font-size: 12px;
+	font-size: 14px;
 }
 
 
