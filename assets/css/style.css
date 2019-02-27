@@ -277,6 +277,11 @@ h5 {
  	background-image: url("../images/bk12.jpg");
  	}
 
+#profilepic {
+	width: 20%;
+	height: 20%;
+}
+
 h1 {
 	font-size: 20px;
 }
@@ -299,6 +304,10 @@ h5 {
 /*Mobile Styles */
 @media only screen and (max-width: 400px) {
 
+#profilepic {
+	width: 20%;
+	height: 20%;
+}
 
 #bgimg {
  	background-image: url("../images/bk12.jpg");
