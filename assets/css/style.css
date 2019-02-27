@@ -152,7 +152,7 @@ section
 #container1 {
 	/*right: 1.5%;*/
 	position: absolute;
-	top: 60%;
+	top: 66%;
 	transform: translateY(-50%);
 	width: 100%;
 	text-align: center;
@@ -255,12 +255,9 @@ section
 /*Desktop Styles*/
 @media only screen and (min-width: 961px) {
 
-/*#profilepic {
-	width: 13%;
-	height: 13%;
-}*/
 
-/*h1 {
+
+h1 {
 	font-size: 1em;
 }
 
@@ -274,7 +271,7 @@ h4 {
 
 h5 {
 	font-size: 1em;
-}*/
+}
 
 
 
@@ -298,7 +295,7 @@ h5 {
 #container1 {
 	/*right: 1.5%;*/
 	position: absolute;
-	top: 35%;
+	top: 45%;
 	transform: translateY(-50%);
 	width: 100%;
 	text-align: center;
@@ -345,7 +342,7 @@ h5 {
 
 #container1 {
 	/*right: 1.5%;*/
-	top: 40%;
+	top: 55%;
 
 }
 
@@ -356,7 +353,7 @@ h5 {
 }
 
 h1 {
-	font-size: 20px;
+	font-size: 5px;
 }
 
 h3 {
