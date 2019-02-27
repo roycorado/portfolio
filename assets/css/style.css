@@ -152,18 +152,18 @@ section
 #container1 {
 	/*right: 1.5%;*/
 	position: absolute;
-	top: 50%;
+	top: 60%;
 	transform: translateY(-50%);
 	width: 100%;
 	text-align: center;
 	color: #fff;
 	margin: 0;
 	padding: 0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
-#whatidoheading {
-	/*right: 1.5%;*/
+/*#whatidoheading {
+
 	position: absolute;
 	top: 80%;
 	transform: translateY(-50%);
@@ -173,7 +173,7 @@ section
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-}
+}*/
 
 
 
@@ -294,18 +294,6 @@ h5 {
 }*/
 
 
-#whatidoheading {
-	/*right: 1.5%;*/
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	width: 100%;
-	text-align: center;
-	color: #fff;
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-}
 
 #container1 {
 	/*right: 1.5%;*/
@@ -353,14 +341,11 @@ h5 {
  	background-image: url("../images/bk12.jpg");
  	}
 
-#whatidoheading {
 
-	top: 50%;
-}
 
 #container1 {
 	/*right: 1.5%;*/
-	top: 35%;
+	top: 40%;
 
 }
 
