@@ -178,15 +178,6 @@ section
 	font-family: 'Montserrat', sans-serif;
 }
 
-#profilepic {
-	position: absolute;
-	top: 15%;
-	transform: translateY(-50%);
-	text-align: center;
-	color: #fff;
-	margin: 0;
-	padding: 0;
-}
 
 .footer {
 	min-height: 30px;
@@ -259,12 +250,12 @@ section
 	height: 13%;
 }
 
-/*h1 {
+h1 {
 	font-size: 1em;
 }
 
 h3 {
-	font-size: 1em;
+	font-size: 1.3em;
 }
 
 h4 {
@@ -273,7 +264,7 @@ h4 {
 
 h5 {
 	font-size: 1em;
-}*/
+}
 
 
 
@@ -319,15 +310,7 @@ h5 {
 	font-family: 'Montserrat', sans-serif;
 }
 
-#profilepic {
-	position: absolute;
-	top: 15%;
-	transform: translateY(-50%);
-	text-align: center;
-	color: #fff;
-	margin: 0;
-	padding: 0;
-}
+
 
 h1 {
 	font-size: 20px;
@@ -361,39 +344,22 @@ h5 {
  	}
 
 #whatidoheading {
-	/*right: 1.5%;*/
-	position: absolute;
+
+	
 	top: 50%;
-	transform: translateY(-50%);
-	width: 100%;
-	text-align: center;
-	color: #fff;
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
 }
 
 #container1 {
 	/*right: 1.5%;*/
-	position: absolute;
+
 	top: 35%;
-	transform: translateY(-50%);
-	width: 100%;
-	text-align: center;
-	color: #fff;
-	margin: 0;
-	padding: 0;
-	font-family: 'Montserrat', sans-serif;
+
 }
 
 #profilepic {
-	position: absolute;
+
 	top: 15%;
-	transform: translateY(-50%);
-	text-align: center;
-	color: #fff;
-	margin: 0;
-	padding: 0;
+
 }
 
 h1 {
